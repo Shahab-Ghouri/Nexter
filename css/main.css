@@ -60,7 +60,15 @@ body {
       grid-template-rows: repeat(5, min-content) 130vh repeat(2, min-content) min-content;
   -ms-grid-columns: (1fr)[8];
       grid-template-columns: repeat(8, 1fr);
-      grid-template-areas: "copyright copyright copyright copyright copyright copyright copyright copyright"    " navbar navbar  navbar  navbar navbar navbar  navbar  navbar "   "  header header header header header header header header" ". features features features features features features ." ". homes homes homes homes homes homes ." "gallery gallery gallery gallery gallery gallery gallery gallery"  "about about about about about about about about" "about about about about about about about about" "footer footer footer footer footer footer footer footer";
+      grid-template-areas: "copyright copyright copyright copyright copyright copyright copyright copyright"   
+ " navbar navbar  navbar  navbar navbar navbar  navbar  navbar "  
+ "  header header header header header header header header"
+ ". features features features features features features ."
+ ". homes homes homes homes homes homes ."
+ "gallery gallery gallery gallery gallery gallery gallery gallery" 
+ "about about about about about about about about"
+ "about about about about about about about about"
+ "footer footer footer footer footer footer footer footer";
 }
 
 .heading-1, .heading-2, .heading-3, .heading-4, .heading-5, .heading-6 {
@@ -229,8 +237,8 @@ body {
   -webkit-box-pack: start;
       -ms-flex-pack: start;
           justify-content: start;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.589))), url(/dist/images/header-background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.589)), url(/dist/images/header-background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.589))), url(/images/header-background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.589)), url(/images/header-background.jpg);
 }
 
 .navbar .navbar-contents {
@@ -288,8 +296,8 @@ body {
   -ms-grid-column-span: 8;
   grid-area: header;
   color: whitesmoke;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.589))), url(/dist/images/header-background.jpg);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.589)), url(/dist/images/header-background.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.589))), url(/images/header-background.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.589)), url(/images/header-background.jpg);
   background-size: 100% 100% ,cover;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -651,7 +659,7 @@ body {
 }
 
 .gallery-img1 {
-  background-image: url(/dist/images/gal-1.jpeg);
+  background-image: url(/images/gal-1.jpeg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -670,7 +678,7 @@ body {
 }
 
 .gallery-img2 {
-  background-image: url(/dist/images/gal-2.jpeg);
+  background-image: url(/images/gal-2.jpeg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
@@ -689,7 +697,7 @@ body {
 }
 
 .gallery-img3 {
-  background-image: url(/dist/images/gal-12.jpg);
+  background-image: url(/images/gal-12.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
@@ -708,7 +716,7 @@ body {
 }
 
 .gallery-img4 {
-  background-image: url(/dist/images/gal-4.jpeg);
+  background-image: url(/images/gal-4.jpeg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -727,7 +735,7 @@ body {
 }
 
 .gallery-img5 {
-  background-image: url(/dist/images/gal-5.jpg);
+  background-image: url(/images/gal-5.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 3;
   -ms-grid-column-span: 3;
@@ -746,7 +754,7 @@ body {
 }
 
 .gallery-img6 {
-  background-image: url(/dist/images/gal-6.jpg);
+  background-image: url(/images/gal-6.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 6;
   -ms-grid-column-span: 2;
@@ -765,7 +773,7 @@ body {
 }
 
 .gallery-img7 {
-  background-image: url(/dist/images/lamp.jpg);
+  background-image: url(/images/lamp.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 8;
   grid-column: 8;
@@ -783,7 +791,7 @@ body {
 }
 
 .gallery-img8 {
-  background-image: url(/dist/images/gal-8.jpg);
+  background-image: url(/images/gal-8.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 1;
   -ms-grid-column-span: 2;
@@ -802,7 +810,7 @@ body {
 }
 
 .gallery-img9 {
-  background-image: url(/dist/images/gal-14.jpg);
+  background-image: url(/images/gal-14.jpg);
   background-size: 100% 100%, cover;
   -ms-grid-column: 6;
   -ms-grid-column-span: 3;
@@ -834,7 +842,10 @@ body {
       grid-template-rows: repeat(4, min-content);
   -ms-grid-columns: (1fr)[6];
       grid-template-columns: repeat(6, 1fr);
-      grid-template-areas: "heading heading heading heading heading heading" ". part-1 part-1 part-1 part-1 ." "head2 head2 head2 head2 head2 head2 " "part-2 part-2 part-2 part-2 part-2 part-2 ";
+      grid-template-areas: "heading heading heading heading heading heading"
+ ". part-1 part-1 part-1 part-1 ."
+ "head2 head2 head2 head2 head2 head2 "
+ "part-2 part-2 part-2 part-2 part-2 part-2 ";
 }
 
 .about .about-heading {
@@ -928,7 +939,7 @@ body {
 }
 
 .about .about-part-2-review-1 {
-  background-image: url(/dist/images/person-1.jpg);
+  background-image: url(/images/person-1.jpg);
   background-size: 100% 100% ,cover;
   height: 50vh;
   display: -ms-grid;
@@ -952,7 +963,7 @@ body {
 }
 
 .about .about-part-2-review-2 {
-  background-image: url(/dist/images/person-2.jpg);
+  background-image: url(/images/person-2.jpg);
   background-size: 100% 100% ,cover;
   display: -ms-grid;
   display: grid;
@@ -974,7 +985,7 @@ body {
 }
 
 .about .about-part-2-review-3 {
-  background-image: url(/dist/images/person-3.jpg);
+  background-image: url(/images/person-3.jpg);
   background-size: 100% 100% ,cover;
   display: -ms-grid;
   display: grid;
